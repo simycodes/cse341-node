@@ -1,8 +1,15 @@
 // THIS IS A CONTROLLER FILE
 
-const displayName = (req, res) => {
-    res.status(200).send('Richard Voigt!');
+
+// GET AS SINGLE CONTACT
+const displayHome = async (req, res) => {
+  try {
+    res.status(200).json('Api is working! - See the rest.http file for all api supported routes. Thanks')
+  }
+  catch (error) {
+    res.status(500).json(error);
+  }
 }
 
 
-module.exports = { displayName }
+module.exports = { displayHome }

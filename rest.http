@@ -1,0 +1,10 @@
+# LOCAL HOST
+
+# GET A SINGLE CONTACT
+http://localhost:3000/contacts/displaySingleContact/63bea48fe73bda6cf7e628bd
+
+# GET ALL CONTACTS
+http://localhost:3000/contacts/displayAllContacts
+
+# CREATE A CONTACT
+http://localhost:3000/contacts/createContact
