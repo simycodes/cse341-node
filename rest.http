@@ -8,3 +8,12 @@ http://localhost:3000/contacts/displayAllContacts
 
 # CREATE A CONTACT
 http://localhost:3000/contacts/createContact
+
+
+#RENDER
+
+# GET A SINGLE CONTACT
+https://cse341-assignment-services.onrender.com/contacts/displaySingleContact/63bea48fe73bda6cf7e628bd
+
+# GET ALL CONTACTS
+https://cse341-assignment-services.onrender.com/contacts/displayAllContacts
