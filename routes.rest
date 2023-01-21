@@ -1,0 +1,78 @@
+# LOCAL HOST
+
+# GET A SINGLE CONTACT
+###
+http://localhost:3000/contacts/displaySingleContact/63bea48fe73bda6cf7e628bd
+
+# GET ALL CONTACTS
+###
+GET http://localhost:3000/contacts/displayAllContacts
+
+# CREATE A CONTACT
+###
+POST http://localhost:3000/contacts/createContact
+Content-Type: application/json
+
+{
+    "firstName":"test1",
+    "lastName": "test",
+    "email": "test@gmail.com",
+    "favoriteColor":"green"
+}
+
+# UPDATE A CONTACT
+###
+PUT http://localhost:3000/contacts/updateContact/63cbee41846380062946a1c0
+Content-Type: application/json
+
+{
+    "firstName":"Test updated",
+    "lastName": "test",
+    "email": "test@gmail.com",
+    "favoriteColor":"green"
+}
+
+# DELETE A CONTACT
+###
+DELETE http://localhost:3000/contacts/deleteContact/63cbeecf846380062946a1c5
+
+
+#ON RENDER
+
+# GET A SINGLE CONTACT
+###
+https://cse341-assignment-services.onrender.com/contacts/displaySingleContact/63bea48fe73bda6cf7e628bd
+
+# GET ALL CONTACTS
+###
+https://cse341-assignment-services.onrender.com/contacts/displayAllContacts
+
+
+### CREATE A CONTACT
+POST https://cse341-assignment-services.onrender.com/contacts/createContact
+content-type: application/json
+
+{
+    "firstName":"test1-render",
+    "lastName": "test",
+    "email": "test@gmail.com",
+    "favoriteColor":"green",
+    "birthday":"18/05/19"
+}
+
+
+### UPDATE A CONTACT
+POST https://cse341-assignment-services.onrender.com/contacts/updateContact/63cbf0623a0b121114904bea
+content-type: application/json
+
+{
+    "firstName":"test1-render-updated",
+    "lastName": "test",
+    "email": "test@gmail.com",
+    "favoriteColor":"green",
+    "birthday":"18/05/19"
+}
+
+
+### DELETE A CONTACT
+DELETE https://cse341-assignment-services.onrender.com/contacts/deleteContact/test1-render
