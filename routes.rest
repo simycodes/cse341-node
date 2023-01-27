@@ -79,6 +79,9 @@ content-type: application/json
     "birthday":"18/05/19"
 }
 
-
 ### DELETE A CONTACT
 DELETE https://cse341-assignment-services.onrender.com/contacts/deleteContact/63cc445ef88343cbce9c6797
+
+# DISPLAY AND INTERACT WITH THE CONTACTS API DOCUMENTATION - USE BROWSER FOR THIS ROUTE
+###
+DELETE https://cse341-assignment-services.onrender.com/api-docs/
