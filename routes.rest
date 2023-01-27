@@ -84,4 +84,4 @@ DELETE https://cse341-assignment-services.onrender.com/contacts/deleteContact/63
 
 # DISPLAY AND INTERACT WITH THE CONTACTS API DOCUMENTATION - USE BROWSER FOR THIS ROUTE
 ###
-DELETE https://cse341-assignment-services.onrender.com/api-docs/
+https://cse341-assignment-services.onrender.com/api-docs/

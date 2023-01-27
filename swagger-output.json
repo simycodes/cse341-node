@@ -8,7 +8,7 @@
   "host": "cse341-assignment-services.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
