@@ -6,6 +6,14 @@ const router = require('./routes/');
 // CREATING THE SERVER APP VARIABLE
 const app = express();
 
+// SETTING UP UI SWAGGER
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger-output.json');
+
+// http://localhost:3000/api-docs/#/
+app.use('/api-docs', swaggerUi.serve);
+app.get('/api-docs', swaggerUi.setup(swaggerDocument));
+
 // IMPORTING THE .env FILE SO ITS VALUES CAN BE ACCESSED AND USED
 require('dotenv').config();
 // SETTING THE PORT

@@ -2,7 +2,7 @@
 
 # GET A SINGLE CONTACT
 ###
-http://localhost:3000/contacts/displaySingleContact/63bea48fe73bda6cf7e628bd
+http://localhost:3000/contacts/displaySingleContact/63cc44ce7897764536a430c9
 
 # GET ALL CONTACTS
 ###
@@ -14,27 +14,33 @@ POST http://localhost:3000/contacts/createContact
 Content-Type: application/json
 
 {
-    "firstName":"test1",
-    "lastName": "test",
-    "email": "test@gmail.com",
-    "favoriteColor":"green"
+    "firstName":"Mulenga",
+    "lastName": "kabwe",
+    "email": "mk@gmail.com",
+    "favoriteColor":"green",
+    "birthday":"18/05/19"
 }
 
 # UPDATE A CONTACT
 ###
-PUT http://localhost:3000/contacts/updateContact/63cbee41846380062946a1c0
+PUT http://localhost:3000/contacts/updateContact/63cc44ce7897764536a430c9
 Content-Type: application/json
 
 {
-    "firstName":"Test updated",
-    "lastName": "test",
-    "email": "test@gmail.com",
-    "favoriteColor":"green"
+    "firstName":"Simon",
+    "lastName": "Bwalya",
+    "email": "mk@gmail.com",
+    "favoriteColor":"green",
+    "birthday":"18/05/19"
 }
 
 # DELETE A CONTACT
 ###
-DELETE http://localhost:3000/contacts/deleteContact/63cbeecf846380062946a1c5
+DELETE http://localhost:3000/contacts/deleteContact/63cc433106787b710a02102e
+
+# DISPLAY AND INTERACT WITH THE CONTACTS API DOCUMENTATION - USE BROWSER FOR THIS ROUTE
+###
+DELETE http://localhost:3000/api-docs/#/
 
 
 #ON RENDER
@@ -53,26 +59,26 @@ POST https://cse341-assignment-services.onrender.com/contacts/createContact
 content-type: application/json
 
 {
-    "firstName":"test1-render",
-    "lastName": "test",
-    "email": "test@gmail.com",
-    "favoriteColor":"green",
+    "firstName":"Chewe",
+    "lastName": "Mwana",
+    "email": "mwanaM@gmail.com",
+    "favoriteColor":"red",
     "birthday":"18/05/19"
 }
 
 
 ### UPDATE A CONTACT
-POST https://cse341-assignment-services.onrender.com/contacts/updateContact/63cbf0623a0b121114904bea
+PUT https://cse341-assignment-services.onrender.com/contacts/updateContact/63bea4e7dc5d2d70bb5120b6
 content-type: application/json
 
 {
-    "firstName":"test1-render-updated",
-    "lastName": "test",
-    "email": "test@gmail.com",
-    "favoriteColor":"green",
+    "firstName":"Angel",
+    "lastName": "Banda",
+    "email": "mulemule@gmail.com",
+    "favoriteColor":"red",
     "birthday":"18/05/19"
 }
 
 
 ### DELETE A CONTACT
-DELETE https://cse341-assignment-services.onrender.com/contacts/deleteContact/test1-render
+DELETE https://cse341-assignment-services.onrender.com/contacts/deleteContact/63cc445ef88343cbce9c6797

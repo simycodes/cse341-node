@@ -5,7 +5,7 @@ const displayHome = async (req, res) => {
   try {
     res
       .status(200)
-      .json('Api is working! - See the rest.http file for all api supported routes. Thanks');
+      .json('Api is working! - See the routes.rest file for all api supported routes. Thanks');
   } catch (error) {
     res.status(500).json(error);
   }
